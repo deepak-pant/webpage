@@ -27,7 +27,9 @@ html {
   src: url("fonts/CroissantOne-Regular.ttf")
   font-family:"Croissant One", "Merriweather" and serif;
 }
-
+.body{
+	overflow:scroll;
+}
 
 
 .header {
@@ -55,17 +57,16 @@ html {
   border: 2px solid;
   margin-right:5px;
   margin-bottom:10px;
-
+  width:50%;
   text-align: center;
 }
- .header ul li:hover{
-     background-color:hsla(25, 100%, 25%, 0.4); 
-  }
+ 
 
 .header li a {
   text-decoration: none;
   color: #4a4a4a;
   text-align: center;
+  background-color:hsla(25, 100%, 25%, 0.4);
 }
 
 @media only screen and (max-width: 550px) {
@@ -88,7 +89,7 @@ html {
   height: 50rem;
   background: url("https://lieveroundtheworld.files.wordpress.com/2015/09/thamel-6.jpg") center center no-repeat;
   background-size: cover;
- color: hsl(40, 70%, 90%);
+ color: hsl(10, 70%, 80%);
   
 }
 
